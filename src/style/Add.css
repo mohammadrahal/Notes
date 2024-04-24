@@ -1,0 +1,17 @@
+.note_container{
+    display: flex;
+    gap:2rem;
+
+}
+
+.notes_shape{
+    color: white;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+}
