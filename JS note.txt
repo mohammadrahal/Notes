@@ -1,0 +1,19 @@
+JS data type
+undefined
+null
+boolean
+string
+symbol
+bigint
+number
+object
+______________________________________________________________
+
+
+array method:
+push()
+pop():removes the last element.
+shift():removes the first element instead of the last.
+unshift(): add element
+
+

@@ -1,0 +1,22 @@
+ "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+
+yarn add nodemon --dev
+
+UPDATE NPM
+cd %ProgramFiles%\nodejs
+npm install npm@latest
+______________________________
+REACT INSTALL
+npx-create-app appname
+
+
+
+
+
+
+
+Angular
+npm init @angular myApp
