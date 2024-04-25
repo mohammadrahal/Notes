@@ -83,9 +83,15 @@ const Add = () => {
             className="notes_shape"
           >
             <h1 className="note_title">{note.text}</h1>
-            <div>
-              <button onClick={() => handleEdit(index)}>Edit</button>
-              <button onClick={() => handleDelete(index)}>Delete</button>
+            <div className='btns'>
+              <button 
+              onClick={() => handleEdit(index)}
+              className="btn edit_btn"
+              >Edit</button>
+              <button 
+              onClick={() => handleDelete(index)}
+              className="btn delete_btn"
+              >Delete</button>
             </div>
           </li>
         ))}
